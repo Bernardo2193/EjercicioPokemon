@@ -9,6 +9,7 @@ public class Main {
         Charmander charmander = new Charmander();
         Bulbasaur bulbasaur = new Bulbasaur();
         Pikachu pikachu = new Pikachu();
+        Clefairy clefairy = new Clefairy();
 
         squirtle.atacarAraniazo();
         squirtle.atacarHidrobomba();
@@ -17,6 +18,8 @@ public class Main {
         bulbasaur.atacarAraniazo();
         pikachu.atacarPunioTrueno();
         pikachu.atacarAraniazo();
+        clefairy.atacarAraniazo();
+        clefairy.muroMagico();
     }
 
     }
